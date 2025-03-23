@@ -1,0 +1,6 @@
+pyinstaller --add-data "sources/words/*;sources/words" `
+            --add-data "sources/tutorial/*;sources/tutorial" `
+            --add-data "sources/audio/*;sources/audio" `
+            --add-data "sources/*;sources" `
+            --icon=sources/icon.ico `
+            --windowed main.py

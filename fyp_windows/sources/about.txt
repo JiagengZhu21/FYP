@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+This project, developed by Zhu Jiageng, is an AI-native game aimed at exploring the application of generative artificial intelligence in text-based interactive games. The game is set in the world of One Thousand and One Nights, featuring the classic character Shahrzad. Through AI-driven interactions, players engage in dialogues with the King. They take on the role of Shahrzad, a clever and courageous storyteller, who attempts to win the King's forgiveness by weaving captivating tales.
+The key research focuses of this project are:
+1. Comparative Analysis of Different System Prompt Templates: Exploring the impact of various prompt engineering methods on generation quality and player experience.
+2. Potential of Generative AI in Interactive Games: Summarizing the advantages and challenges of AI-driven interactions in game design.
+--------------------------------------------------------------------------------
+此项目是由朱家庚开发的 AI 原生游戏，旨在探索生成式人工智能在文字互动游戏中的应用。游戏背景基于《一千零一夜》中的经典角色 Shahrzad，通过 AI 驱动玩家与国王的对话互动。玩家扮演聪慧而勇敢的讲故事者 Shahrzad，以讲述引人入胜的故事为手段，试图赢得国王的宽恕。
+本项目的研究重点在于：
+1. 不同 System Prompt 模板的交互效果对比：探索各种提示工程方法对生成效果与玩家体验的影响。
+2. 生成式 AI 在互动游戏中的应用潜力：总结 AI 驱动的互动方式在游戏设计中的优势与挑战。
+--------------------------------------------------------------------------------

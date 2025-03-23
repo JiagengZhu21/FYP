@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ink Free</family>
+    <pointsize>28</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>320</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ink Free</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>[Back]</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ink Free</family>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>551</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ink Free</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ink Free'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111; background-color:#fffff8;&quot;&gt;Intelligent agents are constantly generating, acquiring, and processing data. This data could be in the form of&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;images&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt; that we capture on our phones, &lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;text&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt; messages we share with our friends, &lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;graphs&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt; that model interactions on social media, &lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;videos&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt; that record important events, etc. Natural agents excel at discovering patterns, extracting knowledge, and performing complex reasoning based on the data they observe. How can we build artificial learning systems to do the same?&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111; background-color:#fffff8;&quot;&gt;In this course, we will study generative models that view the world under the lens of probability. In such a worldview, we can think of any kind of observed data, say&lt;/span&gt;&lt;a name=&quot;MathJax-Element-1-Frame&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Caligraphic'; font-size:14pt; color:#111111;&quot;&gt;D&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt;D, as a finite set of samples from an underlying distribution, say &lt;/span&gt;&lt;a name=&quot;MathJax-Element-2-Frame&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Math-italic'; font-size:14pt; color:#111111;&quot;&gt;p&lt;/span&gt;&lt;a name=&quot;MathJax-Span-10&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Main'; font-size:14pt; color:#111111;&quot;&gt;d&lt;/span&gt;&lt;a name=&quot;MathJax-Span-15&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Main'; font-size:14pt; color:#111111;&quot;&gt;a&lt;/span&gt;&lt;a name=&quot;MathJax-Span-16&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Main'; font-size:14pt; color:#111111;&quot;&gt;t&lt;/span&gt;&lt;a name=&quot;MathJax-Span-17&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Main'; font-size:14pt; color:#111111;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt;pdata. At its very core, the goal of any generative model is then to approximate this data distribution given access to the dataset &lt;/span&gt;&lt;a name=&quot;MathJax-Element-3-Frame&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'MathJax_Caligraphic'; font-size:14pt; color:#111111;&quot;&gt;D&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt;D. The hope is that if we are able to &lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;learn&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt; a good generative model, we can use the learned model for downstream &lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; font-style:italic; color:#111111;&quot;&gt;inference&lt;/span&gt;&lt;span style=&quot; font-family:'et-book','Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia','serif'; font-size:14pt; color:#111111;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
