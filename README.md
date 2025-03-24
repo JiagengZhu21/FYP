@@ -14,3 +14,7 @@ JiagengZhu's final year project repository, including code and files
 ```shell
 pip install -r requirements.txt
 ```
+
+## Game Demo
+A game demo can be donwloaded from this [link](https://drive.google.com/drive/folders/1IYEvQoBPmhyiMbKR5xGz81dVeU88A9yx?usp=sharing) (Windows version only)
+![open](images/open.png)
